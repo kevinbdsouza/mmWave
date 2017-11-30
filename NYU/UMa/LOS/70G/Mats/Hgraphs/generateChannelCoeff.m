@@ -59,7 +59,7 @@ for nU = 1:numUsers
         rmsDs = dirPath(9);
         
         rxPowerWatt = 10^(rxPower/10);
-        pathGainWatt = sqrt(rxPowerWatt)*5e1;
+        pathGainWatt = sqrt(rxPowerWatt);
         
         %Rectangular array response vector for TX
         indTx = 1;
